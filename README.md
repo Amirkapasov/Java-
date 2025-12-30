@@ -1,44 +1,27 @@
-Education Management System (Java, OOP)
-📌 Description
+# 🎓 Education Management System (Java, OOP)
 
-Simple Java project demonstrating core Object-Oriented Programming concepts:
+Java project  **Object-Oriented Programming (OOP)**.
 
-abstraction
+---
 
-inheritance
+## 📌 Project Overview
 
-encapsulation
+The system models an educational environment with **students**, **teachers**, and an **institution**.  
+It demonstrates practical use of:
 
-polymorphism
+- Abstraction  
+- Inheritance  
+- Encapsulation  
+- Polymorphism  
+- Method overriding (`toString()`, `equals()`, `hashCode()`)  
+- Composition  
 
-method overriding (toString, equals, hashCode)
+---
 
-composition
+## 🧩 OOP Concepts
 
-🧩 Project Structure
-
-EducationEntity — abstract base class
-
-Student — represents a student with GPA and age
-
-Teacher — represents a teacher with experience and subject
-
-Institution — contains a student and a teacher (composition)
-
-⚙ Key Features
-
-Logical implementation of equals() and hashCode()
-
-Real relationship checks:
-
-hasStudent(Student s)
-
-hasTeacher(Teacher t)
-
-Correct behavior with hash-based collections
-
-👤 Author
-
-Kapasov Amir
-SE-2502
-Assignment 2
+- **Abstraction** — via abstract base class `EducationEntity`  
+- **Inheritance** — entity hierarchy (`Student`, `Teacher`)  
+- **Encapsulation** — private fields with getters/setters  
+- **Polymorphism** — working through base class references  
+- **Composition** — objects included in `Institution` 
