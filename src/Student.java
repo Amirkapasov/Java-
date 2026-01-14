@@ -10,6 +10,7 @@ class Student extends EducationEntity {
         this.age = age;
         this.gpa = gpa;
     }
+    public float getGpa() { return gpa; }
 
     @Override
     public void checkStatus() {
