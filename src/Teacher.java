@@ -10,7 +10,9 @@ class Teacher extends EducationEntity {
         this.experienceYears = experienceYears;
         this.subject = subject;
     }
-
+    public int getExperienceYears() {
+        return experienceYears;
+    }
     @Override
     public void checkStatus() {
         if (experienceYears >= 5) {
